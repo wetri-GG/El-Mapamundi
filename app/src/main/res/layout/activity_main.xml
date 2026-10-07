@@ -32,24 +32,54 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.206" />
 
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Esto es diferente en otro idioma"
+    <ImageButton
+        android:id="@+id/imagen1"
+        android:layout_width="111dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="463dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Anillo"
-        app:layout_constraintVertical_bias="0.749" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d3jme6i_8c702ad4_4b7a_4763_9901_99f8b4f038b0" />
+
+    <ImageButton
+        android:id="@+id/imagen2"
+        android:layout_width="111dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="287dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d3jme6i_8c702ad4_4b7a_4763_9901_99f8b4f038b0" />
+
+    <ImageButton
+        android:id="@+id/imagen3"
+        android:layout_width="92dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="308dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d3jme6i_8c702ad4_4b7a_4763_9901_99f8b4f038b0" />
 
     <ImageView
         android:id="@+id/Mordor"
         android:layout_width="112dp"
         android:layout_height="87dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="168dp"
         app:layout_constraintCircle="@id/Anillo"
         app:layout_constraintCircleAngle="0"
         app:layout_constraintCircleRadius="140dp"

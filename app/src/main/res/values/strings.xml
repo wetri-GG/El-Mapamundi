@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">El Mapamundi Multilingüe de la Tierra Media</string>
+    <string name="app_name" translatable="false">El Mapamundi Multilingüe de la Tierra Media</string>
+    <string name="texto_internacional">Adentrate en tu aventura con %1$s</string>
 </resources>

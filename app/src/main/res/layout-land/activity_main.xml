@@ -30,17 +30,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.525" />
 
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Esto es diferente en otro idioma"
+    <ImageButton
+        android:id="@+id/imagen1"
+        android:layout_width="111dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="464dp"
+        android:layout_marginBottom="302dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Anillo"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d3jme6i_8c702ad4_4b7a_4763_9901_99f8b4f038b0" />
+
+    <ImageButton
+        android:id="@+id/imagen2"
+        android:layout_width="111dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="323dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d3jme6i_8c702ad4_4b7a_4763_9901_99f8b4f038b0" />
+
+    <ImageButton
+        android:id="@+id/imagen3"
+        android:layout_width="92dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="614dp"
+        android:layout_marginBottom="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d3jme6i_8c702ad4_4b7a_4763_9901_99f8b4f038b0" />
 
     <ImageView
         android:id="@+id/MordorL"
